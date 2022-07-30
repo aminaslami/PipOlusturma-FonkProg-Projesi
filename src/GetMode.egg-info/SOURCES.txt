@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/GetMode.egg-info/PKG-INFO
+src/GetMode.egg-info/SOURCES.txt
+src/GetMode.egg-info/dependency_links.txt
+src/GetMode.egg-info/top_level.txt
+src/mypackage/GetTheMode.py
+src/mypackage/__init__.py

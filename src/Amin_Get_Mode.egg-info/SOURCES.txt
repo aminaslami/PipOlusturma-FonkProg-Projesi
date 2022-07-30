@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Amin_Get_Mode.egg-info/PKG-INFO
+src/Amin_Get_Mode.egg-info/SOURCES.txt
+src/Amin_Get_Mode.egg-info/dependency_links.txt
+src/Amin_Get_Mode.egg-info/top_level.txt
+src/mypackage/Amin_Get_Mode.py
+src/mypackage/__init__.py
