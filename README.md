@@ -1,4 +1,5 @@
-# Pip sürümünün yükseltilmiş olduğundan emin olunWindows
+# Pip sürümünün yükseltilmiş olduğundan emin olun
+**Windows**
 ```
 py -m pip install --upgrade pip
 ```
