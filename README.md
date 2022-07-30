@@ -1,5 +1,4 @@
-# Make sure you have upgraded version of pip
-Windows
+# Pip sürümünün yükseltilmiş olduğundan emin olunWindows
 ```
 py -m pip install --upgrade pip
 ```
@@ -9,7 +8,7 @@ Linux/MAC OS
 python3 -m pip install --upgrade pip
 ```
 
-## Create a project with the following structure
+## Aşağıdaki yapıya sahip bir proje oluşturun
 ```
 packaging_tutorial/
 ├── LICENSE
@@ -32,7 +31,7 @@ mkdir tests
 
 ## pyproject.toml 
 
-This file tells tools like pip and build how to create your project
+Bu dosya, pip ve build gibi araçlara projenizi nasıl oluşturacağınızı anlatır.
 
 ```
 [build-system]
@@ -42,21 +41,20 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 ```
-build-system.requires gives a list of packages that are needed to build your package. Listing something here will only make it available during the build, not after it is installed.
+build-system.requires, paketinizi oluşturmak için gereken paketlerin bir listesini verir. Burada bir şey listelemek, onu kurulduktan sonra değil, yalnızca derleme sırasında kullanılabilir hale getirecektir.
 
-build-system.build-backend is the name of Python object that will be used to perform the build. If you were to use a different build system, such as flit or poetry, those would go here, and the configuration details would be completely different than the setuptools configuration described below.
-
+build-system.build-backend, derlemeyi gerçekleştirmek için kullanılacak Python nesnesinin adıdır. Flit veya şiir gibi farklı bir yapı sistemi kullanacak olsaydınız, bunlar buraya gelirdi ve yapılandırma ayrıntıları aşağıda açıklanan setuptools yapılandırmasından tamamen farklı olurdu.
 
 # Setup.cfg setup
-Using setup.cfg is a best practice, but you could have a dynamic setup file using setup.py
+setup.cfg kullanmak en iyi uygulamadır, ancak setup.py kullanarak dinamik bir kurulum dosyanız olabilir.
 
 ```
 [metadata]
-name = GetMode
-version = 0.0.1
+name = Amin_Get_Mode_Version3
+version = 0.0.3
 author = Amin
 author_email = aminaslamiaf@gmail.com
-description = You can get mode easily
+description = You can get mode easily - Amin Aslami
 long_description = file: README.md
 long_description_content_type = text/markdown
 url = https://github.com/pypa/sampleproject
@@ -74,11 +72,11 @@ packages = find:
 python_requires = >=3.6
 
 [options.packages.find]
-where = src
+Nerede = src
 
 ```
-# Running the build
-### Make sure your build tool is up to date
+# Yapının çalıştırılması
+### Yapı aracınızın güncel olduğundan emin olun
 Windows
 ```
 py -m pip install --upgrade build
@@ -89,11 +87,11 @@ python3 -m pip install --upgrade build
 ```
 
 
-### Create the build
+### Yapıyı oluşturun
 ```
 py -m build
 ```
 
 
-### References
+### Referanslar
 https://packaging.python.org/tutorials/packaging-projects/
