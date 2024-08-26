@@ -1,6 +1,4 @@
-# PIP Oluşturma Projesi - 175541611 Mohammad Amin ASLAMI 
-
-# (Danışman - Dr. Öğr. Üyesi Yunus SANTUR )
+# PIP Oluşturma Projesi - 175541611 Mohammad Amin ASLAMI (Danışman - Dr. Öğr. Üyesi Yunus SANTUR )
 
 
 ## Pip sürümünün yükseltilmiş olduğundan emin olun
