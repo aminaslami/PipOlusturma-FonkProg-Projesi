@@ -90,7 +90,6 @@ Linux/MAC OS
 python3 -m pip install --upgrade build
 ```
 
-
 ### Yapıyı oluşturun
 ```
 py -m build
